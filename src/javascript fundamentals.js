@@ -1,0 +1,46 @@
+/* JavaScript Fundamentals Task  in Day 3*/
+
+/* 1. Hello World */
+console.log("Hello World");
+
+
+/* 2. Variables */
+let name = "Pradeep";
+let age = 20;
+console.log("Name:", name, "Age:", age);
+
+
+/* 3. Add two numbers */
+let a = 10;
+let b = 20;
+console.log("Sum:", a + b);
+
+
+/* 4. Even or Odd */
+let num = 13;
+if (num % 2 === 0) {
+    console.log(num + " is Even");
+} else {
+    console.log(num + " is Odd");
+}
+
+
+/* 5. Array Example */
+let languages = ["HTML", "CSS", "JavaScript"];
+console.log("Languages:");
+languages.forEach(item => console.log(item));
+
+
+/* 6. Object Example */
+let student = {
+    name: "Pradeep",
+    course: "BCA",
+    rollNo: 101
+};
+console.log(student);
+
+/* 7. Function Example */
+function addNumbers(x, y) {
+    return x + y;
+}
+console.log("Function Sum:", addNumbers(5, 6));
